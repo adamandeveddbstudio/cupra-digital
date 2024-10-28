@@ -23,7 +23,7 @@ function animate() {
     tl.to('#text1', 0.5, { autoAlpha: 1, ease: Power1.easeOut }, 'frame1')
     tl.to('#text1', 0.5, { autoAlpha: 0, ease: Power1.easeOut }, 'frame1+=2')
     // tl.to('#bg1', 0.5, { autoAlpha: 0, ease: Power1.easeOut }, 'frame1+=2.5')
-    tl.to('#bg2', 0.5, { autoAlpha: 1, ease: Power1.easeOut }, 'frame1+=3')
+    tl.to('#bg2', 0.5, { autoAlpha: 1, ease: Power1.easeOut }, 'frame1+=2.5')
     tl.to('#text2', 0.5, { autoAlpha: 1, ease: Power1.easeOut }, 'frame1+=3.5')
     tl.to('#cta', 0.5, { autoAlpha: 1, ease: Power1.easeOut }, 'frame1+=4.5')
 
